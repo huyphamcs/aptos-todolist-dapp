@@ -1,0 +1,28 @@
+[package]
+name = "aptos-todolist-dapp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+huy_addr = "_"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-token-objects"
+
+[dependencies.MoveStdlib]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "move-stdlib"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-stdlib"
